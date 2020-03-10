@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/************/
+/*layout*/
+/************/
+
+
+
+/*zarovnani textu doleva*/
+.vlevo {
+    float: left;
+    position: relative;left: 0; 
+}
+
+/*zarovnani textu doprava*/
+.vpravo{
+    float: right;
+    position: relative;right: 0;
+}
+
+/*pouze doprostred z sirky*/
+.stred {
+    position: relative;
+    justify-content: center;
+    display: flex;  
+       
+
+}
+/*stred stred*/
+.ss{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center; 
+    overflow: hidden;
+}
+
+cerny-ahoj{
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*pismo*/
+
+/* ---> barvy   */
+
+/*cerna primarni*/
+.hlavni{
+    color: black;
+}
